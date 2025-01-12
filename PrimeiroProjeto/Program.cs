@@ -1,7 +1,7 @@
 ﻿// Screen Sound
 string mensagemDeBoasVindas = "Boas vindas ao Screen Sound!";
 
-void ExibirMensagemDeBoasVindas()
+void ExibirLogo()
 {
     Console.WriteLine(@"
 
@@ -53,8 +53,9 @@ void RegistrarBanda()
     Console.WriteLine($"A banda {nomeDaBanda} foi registrada com sucesso");
     Thread.Sleep(2000);
     Console.Clear();
-    ExibirOpcoesDoMenu();
+    ExibirLogo();
+    ExibirOpcoesDoMenu(); 
 }
 
-ExibirMensagemDeBoasVindas();
+ExibirLogo();
 ExibirOpcoesDoMenu();
